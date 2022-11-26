@@ -1,0 +1,32 @@
+.hero {
+    margin: 1rem;
+    background-color: rgba(63, 247, 231, 0.336);
+    width: 25vw;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.buttons-hero {
+    display: flex;
+    gap: 3rem;
+}
+
+.button-hero {
+    padding: 1rem;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    padding: 10px 18px;
+}
+
